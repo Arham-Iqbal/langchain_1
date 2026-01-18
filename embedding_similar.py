@@ -25,6 +25,5 @@ best_index = scores.argmax()
 best_score = scores[best_index]
 
 print(query)
-# print(documents[best_index])
-print(best_score)
+print(documents[best_index])
 print("similarity score is:", best_score)
